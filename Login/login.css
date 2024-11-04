@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: rgba(159, 86, 227, 0.793);
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin-top: 200px;
+    border-radius: 5px;
+    width: 350px;
+    height: 250px;
+    margin-left: 600px;
+}
+body{
+    background-color: rgba(56, 172, 172, 0.651);
+}

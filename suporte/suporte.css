@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: linear-gradient(90.14deg, #b916f2 0.1%, #0D8C47 91.9%);
+    color: whitesmoke;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content-sup{
+    text-align: center;
+    margin-top: 150px;
+}
+.link{
+    border-radius: 4px;
+    position: relative;
+    left: 75px;
+    top: 20px;
+    background: ;
+}

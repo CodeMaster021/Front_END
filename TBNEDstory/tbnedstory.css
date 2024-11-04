@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body{ 
+    background: linear-gradient(90.14deg, #b916f2 0.1%, #0D8C47 91.9%);
+
+
+}
+#acess>text{
+    font-size: 16px ;
+    text-align: center ; 
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+#text{ text-align: center;}
+
+.fw-normal{ 
+    text-align: center;
+    margin-top: 15px;
+
+
+
+}
+
+.nav-bar{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+    
+    color: #fffdfd;
+}
+.logo{
+    font-weight: 800;
+    font-size: 20px;
+
+}
+.nav-itens{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.nav-itens>li>a{
+    padding-left: 40px;
+    color:whitesmoke;
+    text-decoration: none;
+}
+.control-panel {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

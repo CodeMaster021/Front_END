@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{ 
+    background: linear-gradient(90.14deg, #b916f2 0.1%, #0D8C47 91.9%);
+
+
+}
+.nav-bar{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+    background:  #4618ac;
+    border-style: groove;
+    border-color: darkslateblue;
+    color: #fffdfd;
+}
+.logo{
+    font-weight: 800;
+    font-size: 20px;
+
+}
+.nav-itens{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.nav-itens>li>a{
+    padding-left: 40px;
+    color:whitesmoke;
+    text-decoration: none;
+
+}
+.login{
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(141, 133, 196);
+    color: #202020;
+    cursor:pointer;
+    transition: 0.5s background  ;
+}
+.login:hover{
+    background-color: #a1a1a1;
+    transition: 0.5  background;
+}
+.cadastro{
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(115, 105, 186);
+    color: #202020;
+    cursor:pointer;
+    transition: 0.5s background  ;
+}
+.cadastro:hover{
+    background-color: #a1a1a1;
+    transition: 0.5 background;
+}
+#acess{
+    font-size: 16px ;
+}
+.control-panel {
+    margin: 20px;
+}
+button{
+    font-size: 10px;
+    padding: 5px;
+    cursor:pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+.section-one{
+    width: 100px;
+    height: 350px;
+    background: aqua;
+    align-items: center;
+    margin-left: 200px;
+}
+.imggta{
+    height: 350px;
+    width: 150px;
+    cursor: pointer;
+    
+}
+
+.box{
+    position: relative;
+    width: 1250px;
+    height: 900px;
+    right: -170px;
+    border-radius: 0px;
+    background-color: #4618ac;
+    border-style: groove;
+    border-color: darkslateblue;
+}
+
+.box2{
+    position: relative;
+    height: 500px;
+    width: 350px;
+    border-radius: 5%;
+    background-color: midnightblue;
+    top: -800px;
+    right: -300px;
+
+}
+
+.box3{
+    position: relative;
+    height: 500px;
+    width: 350px;
+    border-radius: 5%;
+    background-color: midnightblue;
+    top: -1700px;
+    right: -950px;
+}
+
+.gtav{
+    position: relative;
+    height: 400px;
+    width: 280px;
+    top: -1250px;
+    right: -335px;
+}

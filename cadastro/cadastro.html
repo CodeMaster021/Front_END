@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/imask"></script>
+    <title>TBNEDstoru</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <div id="message"></div>
+    <form action="" id="id_form">
+        <div class="inputs">
+            <label for="">CPF</label> <br>
+            <input type="text" id="cpfValid"   
+            onkeydown="ajustaCpf(this)" 
+            onkeyup="ajustaCpf(this)"
+            onkeydown="ajustaCpf(this)" 
+            onblur="validarCPF(this)" 
+            autocomplete="off" maxlength="14" placeholder="Digite seu CPF" required> <br>
+
+            <label for="">Nome Completo</label> <br>
+            <input type="text" id="validarNome"  onblur="validNome()"  placeholder="Digite seu Nome"  minlength="15" maxlength="80"> <br>
+
+            <label for="">Data de Nascimento</label> <br>
+            <input type="date" name="" id="input2" required> <br> 
+
+            <label for="">Sexo</label> <br>
+            <select name="" id="" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="prefiro não responder">Prefiro não responder</option>
+            </select><br>
+            <br>
+
+            <label for="">Cep </label> 
+            <input type="text" id="cep" maxlength="9" placeholder="Cep" required>
+
+            <label for="">Rua </label>
+            <input type="text" id="address" placeholder="Endereço" required>      
+            
+            <label for="">Bairro </label>
+            <input type="text" id="bairro" placeholder="Bairro" required> <br> <br>
+
+            <label for="">nº</label>
+            <input type="text" required>
+            
+            <label for="">Cidade </label>
+            <input type="text" id="cidade" placeholder="Cidade" required> 
+            
+            <label for="">Uf </label>
+            <input type="text" id="estado"  placeholder="Estado" required> <br> <br>
+
+            <label for="">Email</label> <br>
+            <input type="email" name="" id="emailValid" onblur="validarEmail()" required> <br> 
+            
+            <label for="">Tel</label> <br>
+            <input type="text" id="idTelefone"
+            onkeydown="ajustaTelefone(this)"
+            onkeypress="ajustaTelefone(this)"
+            onkeyup="ajustaTelefone(this)" maxlength="14" required> <br>
+
+            <label for="">Cel</label> <br> 
+            <input type="text"  id="idCelular"  
+            onkeydown="ajustaCelular(this)"
+            onke ypress="ajustaCelular(this)"
+            onkeyup="ajustaCelular(this)" maxlength="15" required> <br>
+
+            <label for="">Login</label> <br> 
+            <input type="text" id="loginUsuario" maxlength="6" required> <br> 
+
+            <label for="">Senha</label>  <br>
+            <input type="password" name="" id="senha"  maxlength="8" required> <br>
+
+            <label for="">Confirme sua Senha</label> <br>
+            <input type="password" name="" id="confirmSenha"  onblur="validarSenha()"  maxlength="8" required> <br>
+            <div class="button">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+<script src="cep.js"></script>
+
+</body>
+</html>

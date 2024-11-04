@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.email_recup{
+    text-align: center;
+    margin-top: 50px;
+    border: whitesmoke solid;
+    border-radius: 5px;
+    width: 420px;
+    height: 390px;
+    margin-left: 548px;
+    
+}
+.cont_recup{
+    text-align: center;
+    margin-top: 75px;  
+}   
+body{
+    background:  linear-gradient(90.14deg, #b916f2 0.1%, #0D8C47 91.9%);
+    color: whitesmoke;
+ 
+}
+h1{ margin-top: 20px;}
